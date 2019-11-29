@@ -12,5 +12,7 @@ export class PlaygroundComponent implements OnInit {
 
   handler(params) {
     console.log('Handler called with:', params);
+    alert("How are you?");
+    
   }
 }
